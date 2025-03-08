@@ -1,0 +1,14 @@
+{
+    "Java Main Template": {
+        "prefix": "aa",
+        "body": [
+            "import java.util.*;",
+            "public class Main {",
+            "    public static void main(String[] args) {",
+            "        ",
+            "    }",
+            "}"
+        ],
+        "description": "Basic Java Main Template"
+    }
+}
