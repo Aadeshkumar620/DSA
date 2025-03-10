@@ -10,6 +10,7 @@ public class A_11_X_power_of_n {
         int xnm1 = power(x , n-1);
         int xn = x * xnm1;
         return xn;
+        // return x * power(x, n-1);
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
