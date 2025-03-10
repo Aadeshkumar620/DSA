@@ -7,7 +7,8 @@ public class A_12_X_power_Of_N {
         if(n==0){
             return 1;
         }
-        int halfPowerSq = optimizedPower(x, n/2) * optimizedPower(x, n/2);
+        int halfPower = optimizedPower(x, n/2); 
+        int halfPowerSq = halfPower * halfPower;
 
         // power is odd
         if(n%2 !=0){
