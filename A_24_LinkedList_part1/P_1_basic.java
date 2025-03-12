@@ -1,6 +1,13 @@
 package A_24_LinkedList_part1;
 
 public class P_1_basic {
+    public static void display(Node head){
+        Node temp = head;
+        while(temp!=null){
+            System.out.print(temp.data+" ");
+            temp = temp.next;
+        }
+    }
     public static class Node{
         int data;     //Value
         Node next;   //address of next node
@@ -22,8 +29,10 @@ public class P_1_basic {
         b.next = c;
         c.next = d;
         d.next = e;
-        System.out.println(a.data);
-        System.out.println(a.next.data);
+  
+        display(a);
+        
+       
     }
     
 }
