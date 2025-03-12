@@ -16,7 +16,14 @@ public class P_1_basic {
         Node c = new Node(3);
         Node d = new Node(4);
         Node e = new Node(5);
+
        
+        a.next = b;
+        b.next = c;
+        c.next = d;
+        d.next = e;
+        System.out.println(a.data);
+        System.out.println(a.next.data);
     }
     
 }
